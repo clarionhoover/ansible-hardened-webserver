@@ -1,0 +1,16 @@
+# file: hosts/production
+# Add each host to the [production] group and to a "type" group such as [web] or [db].
+# List each machine only once per [group], even if it will host multiple sites.
+# If you intend to run everything on one host be sure to put your host under web, database, and app
+
+[production:children]
+web
+database
+app
+
+[web]
+
+[database]
+
+[app]
+
