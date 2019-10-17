@@ -20,4 +20,4 @@ TODO
 TODO
 
 ## License
-License is located in [LICENSE.md](LICENSE.md)
+License is the MIT License located in [LICENSE.md](LICENSE.md)
