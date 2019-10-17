@@ -2,8 +2,15 @@
 ## Purpose
 The purpose of this repository is to contain an ansible playbook with a collection of roles to configure a secure hardened baseline to allow you to deploy a web application knowing the basic security principles have been applied.
 
-## Installation
-TODO
+## How to Use
+To use this playbook, just run the below commands:
+```
+1. ansible-galaxy install -r requirements.yml -p roles/ --force
+2. Add a random string to the .vault_pass file
+3. Fill out needed variables in vars/all_vars.yml and vars/vault.yml
+4. ansible-vault encrypt vars/vault.yml
+5. ansible-playbook playbook.yml -e @vars/all_vars.yml -e @vars/vault.yml -i hosts/production
+```
 
 ## Contributing
 TODO
