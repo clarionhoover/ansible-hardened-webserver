@@ -1,0 +1,21 @@
+---
+# file: playbook.yml
+
+- hosts: production
+  roles:
+    - operating-system
+    - ssh
+
+- hosts: database
+  roles:
+    - database
+
+- hosts: app
+  roles:
+    - app-docker
+    - app-phpfpm
+
+- hosts: web
+  roles:
+    - web-nginx
+    - web-haproxy

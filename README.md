@@ -11,12 +11,13 @@ To use this playbook, just run the below commands:
 4. ansible-vault encrypt vars/vault.yml
 5. ansible-playbook playbook.yml -e @vars/all_vars.yml -e @vars/vault.yml -i hosts/production
 ```
+<p><b><span style="color:red">NOTE:</span></b> This playbook requires no password for sudo, and requiretty disabled for your ansible user. Or you can disable pipelining in the ansible.cfg file</p>
 
 ## Contributing
 TODO
 
 ## Contributors
-TODO 
+TODO
 
 ## License
 License is located in [LICENSE.md](LICENSE.md)
