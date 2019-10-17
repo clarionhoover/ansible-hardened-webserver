@@ -222,4 +222,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/vim,venv,linux,macos,python,windows,ansible,virtualenv
+# Custom
 .vault_pass
+hosts/production
