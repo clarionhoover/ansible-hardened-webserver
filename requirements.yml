@@ -1,2 +1,8 @@
 ---
 # file: requirements.yml
+
+# Dev-Sec OS Hardening
+- src: dev-sec.os-hardening
+- src: dev-sec.ssh-hardening
+- src: dev-sec.mysql-hardening
+- src: dev-sec.nginx-hardening

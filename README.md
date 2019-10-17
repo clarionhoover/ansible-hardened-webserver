@@ -13,11 +13,15 @@ To use this playbook, just run the below commands:
 ```
 <p><b><span style="color:red">NOTE:</span></b> This playbook requires no password for sudo, and requiretty disabled for your ansible user. Or you can disable pipelining in the ansible.cfg file</p>
 
+## Local Testing
+
+
 ## Contributing
 TODO
 
 ## Contributors
 TODO
 
-## License
+## License and Author
+* Author:: Clarion Hoover
 License is the MIT License located in [LICENSE.md](LICENSE.md)
