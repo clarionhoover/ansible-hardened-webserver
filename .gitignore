@@ -225,4 +225,4 @@ $RECYCLE.BIN/
 # Custom
 hosts/ch-production
 .ch_vault_pass
-vars/ch*.yml
+vars/ch-*.yml
